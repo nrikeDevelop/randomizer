@@ -1,0 +1,202 @@
+{
+  "namespace": "App",
+  "fsNamespace": "app",
+  "loader": "../app.js",
+  "corePolyfilled": "es5-build-disabled.js",
+  "global": "app.global.js",
+  "core": "app.core.js",
+  "components": {
+    "app-home": {
+      "bundleIds": {
+        "$": "app-home"
+      }
+    },
+    "app-profile": {
+      "bundleIds": {
+        "ios": "app-profile.ios",
+        "md": "app-profile.md"
+      }
+    },
+    "app-root": {
+      "bundleIds": {
+        "$": "app-root"
+      }
+    },
+    "card-component": {
+      "bundleIds": {
+        "ios": "card-component.ios",
+        "md": "card-component.md"
+      }
+    },
+    "ion-app": {
+      "bundleIds": {
+        "$": "app-root"
+      }
+    },
+    "ion-back-button": {
+      "bundleIds": {
+        "ios": "app-profile.ios",
+        "md": "app-profile.md"
+      },
+      "encapsulation": "scoped"
+    },
+    "ion-button": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-buttons": {
+      "bundleIds": {
+        "ios": "app-profile.ios",
+        "md": "app-profile.md"
+      },
+      "encapsulation": "scoped"
+    },
+    "ion-card": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "scoped"
+    },
+    "ion-card-content": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      }
+    },
+    "ion-card-header": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-card-subtitle": {
+      "bundleIds": {
+        "ios": "card-component.ios",
+        "md": "card-component.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-card-title": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-col": {
+      "bundleIds": {
+        "ios": "random-list.ios",
+        "md": "random-list.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-content": {
+      "bundleIds": {
+        "ios": "ion-content.ios",
+        "md": "ion-content.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-grid": {
+      "bundleIds": {
+        "ios": "random-list.ios",
+        "md": "random-list.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-header": {
+      "bundleIds": {
+        "ios": "ion-content.ios",
+        "md": "ion-content.md"
+      }
+    },
+    "ion-icon": {
+      "bundleIds": {
+        "$": "ion-icon"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-input": {
+      "bundleIds": {
+        "ios": "random-list.ios",
+        "md": "random-list.md"
+      },
+      "encapsulation": "scoped"
+    },
+    "ion-item": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-label": {
+      "bundleIds": {
+        "ios": "ion-button.ios",
+        "md": "ion-button.md"
+      },
+      "encapsulation": "scoped"
+    },
+    "ion-nav": {
+      "bundleIds": {
+        "$": "app-root"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-ripple-effect": {
+      "bundleIds": {
+        "$": "ion-ripple-effect"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-route": {
+      "bundleIds": {
+        "$": "app-root"
+      }
+    },
+    "ion-router": {
+      "bundleIds": {
+        "$": "app-root"
+      }
+    },
+    "ion-row": {
+      "bundleIds": {
+        "ios": "random-list.ios",
+        "md": "random-list.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-title": {
+      "bundleIds": {
+        "ios": "ion-content.ios",
+        "md": "ion-content.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-toggle": {
+      "bundleIds": {
+        "ios": "app-profile.ios",
+        "md": "app-profile.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "ion-toolbar": {
+      "bundleIds": {
+        "ios": "ion-content.ios",
+        "md": "ion-content.md"
+      },
+      "encapsulation": "shadow"
+    },
+    "random-list": {
+      "bundleIds": {
+        "ios": "random-list.ios",
+        "md": "random-list.md"
+      }
+    }
+  }
+}
